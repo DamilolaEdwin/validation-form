@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="index.css" type="text/css" media="all" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+</head>
+<body>
+       <div class="page">
+        <div class="opposite">
+
+            <div class="dark">
+                <div class="svg_file"></div>
+                
+            </div>
+        </div>
+        <div class="opposite">
+            <div class="signup_box">
+                
+                <form id="loginForm" onsubmit="validateLogin()">
+                    <h2>Login</h2>
+                    
+                    <label for="email">Email</label>
+                    <br />
+                    <input type="email" name="email" id="email" placeholder="Email address" />
+                    <br />
+                    <br />
+                    <label for="password">Password</label>
+                    <br />
+                    <input type="password" name="password" id="password" placeholder="Password" />
+                    <p class="pass_error">Password must have six characters </p>
+                    <br />
+                    <br />
+                    
+                    
+                    
+                    
+                    
+                    <a href="">Forgotten Password?</a>
+                    <br />
+                    <br />
+                    <button type="submit" class="btn">Login</button>
+                    <br />
+
+                    
+
+                </form>
+
+                <p class="sign_up">Don't have an account? <a href="signup.html"><button>Signup</button></a></p>
+
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

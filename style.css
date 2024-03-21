@@ -1,0 +1,225 @@
+body{
+    
+    background-color: #1E1E1E;
+    max-width: 100%;
+    
+}
+
+.page{
+    max-height: 620px;
+    max-width: 1128px;
+    display: flex;
+    border-radius: 30px;
+
+}
+
+.opposite{
+    flex: 1;
+    height: 550px;
+
+    border: 30px;
+
+}
+
+.page .opposite .dark{
+    background-color: rgba(45, 42, 50, 100%);
+    width: 500px;
+    height: 498px;
+    color: #fff;
+    margin-inline-start: 130px;
+    margin-block-start: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border: 1px solid #fff;
+
+}
+
+.dark .box{
+    width: 230px;
+    height: 350px;
+    margin-inline-start: 40px;
+    margin-block-start: 40px;
+}
+
+.svg_file{
+    height: 390px;
+    width: 300px;
+    background-image: url('3DDBox.svg');
+    background-size: contain;
+    margin-inline-start: 30px;
+    margin-block-start: 25px;
+}
+
+h2{
+    
+    color: rgba(0, 0, 0, 1);
+    margin-inline-start: 55px;
+    font-weight: bold;
+}
+
+.signup_box{
+   background-color: #fff;
+   width: 750px;
+   height: 500px;
+   margin-inline-start: -145px;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+  
+    
+}
+.signup_box form{
+    margin-inline-start: 200px;
+}
+
+.signup_box label{
+    font-weight: 700;
+}
+
+.signup_box input{
+    height: 30px;
+    width: 250px;
+    border: 1px solid rgba(75, 75, 75, 1);
+    background-color: rgb(199, 199, 206);
+    border-radius: 5px;
+}
+
+.signup_box .btn{
+    height: 38px;
+    width: 255px;
+    background-color: rgba(255, 44, 44, 1);
+    border: 0.5px solid #fff;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 10;
+ }
+
+.signup_box .login{
+    margin-inline-start: 240px;
+}
+
+.signup_box .sign_up{
+    margin-inline-start: 220px;
+}
+
+.signup_box .login button{
+    color: #fff;
+    font-weight: bolder;
+    background-color: rgb(238, 47, 22);
+    width: 80px;
+    height: 25px;
+    border: 0.5px solid #fff;
+    border-radius: 7px;
+
+}
+
+.signup_box .sign_up button{
+    color: #fff;
+    font-weight: bolder;
+    background-color: rgb(238, 47, 22);
+    width: 80px;
+    height: 25px;
+    border: 0.5px solid #fff;
+    border-radius: 7px;
+    
+}
+
+.signup_box .pass_error,
+.signup_box .confirmPass_error{
+    margin-top: 5px;
+    width: 250px;
+    font-size: 18px;
+    color: #c62828;
+    background: rgba(255, 0, 0, 0.1);
+    border-radius: 3px;
+    border: 1px solid #ef9a9a;
+    display: none;
+}
+
+@media screen and (max-width: 480px){
+    .body{
+        max-width: 100%;
+        width: 330px;
+    }
+    
+    .page {
+       flex-direction: column;
+       max-width: 100%;
+       width: 330px;
+       height: 700px;
+
+    }
+
+    .opposite {
+        flex: 1;
+        flex-wrap: wrap;
+        margin: 0;
+        width: 300px;
+        
+       
+    }
+
+    .page .opposite .dark{
+        margin: 0;
+        border-radius: 0; 
+        width: 430px;
+        height: 450px;
+        margin-inline-start: 15px;
+        border: 1px solid rgba(255, 44, 44, 1);
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    .svg_file{
+        height: 400px;
+        width: 300px;
+        background-image: url('3DDBox.svg');
+        background-size: contain;
+        margin-inline-start: 45px;
+        margin-block-start: 25px;
+    }
+
+    .signup_box{
+        width: 430px;
+        margin: 0;
+        border-radius: 0;
+        height: 420px;
+        margin-block-start: -20px;
+        border: 1px solid rgba(255, 44, 44, 1);
+        margin-inline-start: 15px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    
+
+    .signup_box form{
+        margin-inline-start: 70px;
+        margin-block-start: -15px;
+    }
+
+    .signup_box label{
+        font-weight: 400px;
+    }
+
+    .signup_box input{
+        width: 260px;
+        height: 30px;
+    }
+
+    .signup_box .login{
+        margin-inline-start: 55px;
+    }
+        
+    .signup_box .sign_up{
+        margin-block-start: 20px;
+    }
+
+
+
+
+}
